@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "locale": "en",
+    "isoLocale": "en-US",
+    "language": "en",
+    "name": "English",
+    "dir": "ltr",
+    "label": "en"
+  },
+  {
+    "id": 2,
+    "locale": "it",
+    "isoLocale": "it-IT",
+    "language": "it",
+    "name": "Italiano",
+    "dir": "ltr",
+    "label": "it"
+  }
+]

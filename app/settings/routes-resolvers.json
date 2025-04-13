@@ -1,0 +1,21 @@
+{
+  "CLIENT": {
+    "ROUTES": {
+      "LOGIN": "/login",
+      "LOGOUT": "/logout",
+      "SIGNUP": "/signup"
+    }
+  },
+  "SERVER": {
+    "RESOLVERS": {
+      "WITH_TOKEN_HEADERS": [
+        "login",
+        "loginCmsDashboard",
+        "register"
+      ]
+    },
+    "ROUTES": {
+      "LOGOUT": "logout"
+    }
+  }
+}

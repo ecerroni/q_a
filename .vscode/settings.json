@@ -1,0 +1,22 @@
+{
+  "files.associations": {
+    "*.jsx": "javascriptreact"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.ignoreLimitWarning": true,
+  "eslint.codeActionsOnSave.mode": "all",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSaveMode": "file",
+  "eslint.alwaysShowStatus": false,
+  "editor.formatOnSave": false,
+  "eslint.workingDirectories": ["backend", "frontend-react", "app", "frontend", "frontend-vue", "admin", "cms", "crm"]
+}

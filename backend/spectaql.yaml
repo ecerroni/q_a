@@ -1,0 +1,16 @@
+introspection:
+  removeTrailingPeriodFromDescriptions: false
+  url: http://localhost:9000/graphql
+  queryNameStrategy: capitalizeFirst
+  fieldExpansionDepth: 3
+  metadataFile: ./spectaql.meta.json
+
+info:
+  title: GraphQL Documentation
+  description: Grapqhql API docs
+
+spectaql:
+# Default: ./public
+  targetDir: ./src/resources/docs
+  oneFile: true
+

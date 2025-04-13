@@ -1,0 +1,30 @@
+{
+  "name": "graphql-all",
+  "version": "0.0.2",
+  "description": "___FIX_MAIN_DESCRIPTION___",
+  "license": "MIT",
+  "author": "ric0 <rico@enricocerroni.com>",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "husky": "^4.3.0",
+    "semver": "^7.3.2"
+  },
+  "scripts": {
+    "lint-backend": "cd backend && yarn lint",
+    "start-dev-graphql": "cd backend && yarn start",
+    "start-dev-app": "cd app && yarn start",
+    "install-dev-graphql": "cd backend && yarn install",
+    "install-dev-app": "cd app && yarn install",
+    "dev": "concurrently  --kill-others 'yarn:start-dev-*'",
+    "install-all": "yarn install && concurrently 'yarn:install-dev-*'",
+    "reset": "bash reset-install.sh",
+    "start": "yarn run dev",
+    "reset-install": "bash reset-install.sh",
+    "requirements-check": "bash ./checks/check_node_version.sh root",
+    "preinstall": "npm run requirements-check"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": "20.9.0"
+  }
+}

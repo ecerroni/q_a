@@ -1,0 +1,59 @@
+{
+    "OBJECT": {
+      "User": {
+        "fields": {
+          "name": {
+            "documentation": { "example": "John Doe`"}
+          },
+          "role": {
+            "documentation": { "undocumented": true }
+          },
+          "email": {
+            "documentation": { "example": "your@valid.email"}
+          }
+        }
+      },
+      "Query": {
+        "fields": {
+            "_checkAuth": {
+                "documentation": {
+                    "undocumented": true
+                }
+            }
+        }
+      },
+      "Mutation": {
+        "fields": {
+            "loginCmsDashboard": {
+                "documentation": {
+                    "undocumented": true
+                }
+            },
+            "_safeSignS3": {
+                "documentation": {
+                    "undocumented": true
+                }
+            },
+            "_signS3Download": {
+                "documentation": {
+                    "undocumented": true
+                }
+            },
+            "logout": {
+                "documentation": {
+                    "undocumented": true
+                }
+            }
+        }
+      }
+    },
+    "ENUM": {
+      "enumRoles": {
+        "enumValues": {
+          "OWNER": {
+            "documentation": { "undocumented": true }
+          }
+        }
+      }
+    }
+  }
